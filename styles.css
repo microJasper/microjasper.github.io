@@ -385,3 +385,116 @@ header.sticky{
         width: 1000%;
     }
 }
+.social-links p {
+    margin: 10px 0;
+}
+
+.social-links a {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color); /* Ana renginiz */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--text-color); /* Yazı rengi değişimi */
+    transform: scale(1.1); /* Hafif büyüme efekti */
+}
+.iletişim-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.iletişim-content ul li {
+    margin: 10px 0;
+}
+
+.iletişim-content ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.iletişim-content ul li a:hover {
+    color: var(--text-color);
+    transform: scale(1.1);
+}
+/* Hizmetler Bölümü */
+.hizmetler {
+    margin-top: 30px;
+}
+
+.hizmetler h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.hizmetler ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hizmetler ul li {
+    margin-bottom: 10px;
+}
+
+.hizmetler ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color); 
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hizmetler ul li a:hover {
+    color: var(--text-color); 
+    transform: translateX(10px); 
+}
+/* İletişim Bölümü */
+.iletişim-content h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--text-color); /* Yazı rengi */
+}
+
+.iletişim-content li {
+    margin-bottom: 10px;
+}
+
+.iletişim-content li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color); /* Ana renginiz */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Renk ve hareket geçişi */
+}
+
+.iletişim-content li a:hover {
+    color: var(--text-color); /* Yazı rengi değişimi */
+    transform: translateX(10px); /* Hafif sağa kayma efekti */
+}
+.iletişim-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.iletişim-content ul li {
+    margin-bottom: 10px;
+}
+
+.iletişim-content ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.iletişim-content ul li a:hover {
+    color: var(--text-color);
+    transform: translateX(10px); /* Sağa kayma efekti */
+}
