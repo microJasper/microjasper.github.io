@@ -498,3 +498,54 @@ header.sticky{
     color: var(--text-color);
     transform: translateX(10px); /* Sağa kayma efekti */
 }
+/* Tarif isimleri için düzenleme */
+.row h4 {
+    color: var(--main-color); /* Ana rengi kullanarak uyum sağlayalım */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.row h4:hover {
+    color: var(--text-color); /* Üzerine gelince renk değişimi */
+    transform: scale(1.05); /* Hafif büyüme efekti */
+}
+/* İletişim Bölümü Hizalama */
+.main-iletişim {
+    display: grid; /* Grid yapısı ile hizalama */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Her sütunun genişliği minimum 250px olacak */
+    gap: 2rem; /* Aralarındaki boşluk */
+    align-items: start; /* Başlangıç noktasına hizala */
+    justify-content: center; /* Ortaya hizala */
+    text-align: center; /* İçeriği merkezde tut */
+}
+
+/* İçerik Başlıkları */
+.iletişim-content h4 {
+    font-size: 1.5rem; /* Başlık boyutunu büyüt */
+    margin-bottom: 1rem; /* Başlık ile içerik arasındaki boşluk */
+    color: var(--main-color); /* Başlık rengini ana renge ayarla */
+}
+
+/* İçerik Listesi */
+.iletişim-content ul {
+    padding: 0; /* Listeyi kenar boşluklarından temizle */
+    list-style: none; /* Madde işaretlerini kaldır */
+}
+
+.iletişim-content ul li {
+    margin-bottom: 10px; /* Liste elemanları arasındaki boşluk */
+}
+
+.iletişim-content ul li a {
+    font-size: 1rem; /* Yazı boyutu */
+    color: var(--text-color); /* Yazı rengi */
+    transition: color 0.3s ease-in-out; /* Hover efekti için geçiş */
+}
+
+.iletişim-content ul li a:hover {
+    color: var(--main-color); /* Üzerine gelince yazı rengi değişir */
+    transform: translateX(5px); /* Hafif sağa kayma efekti */
+}
